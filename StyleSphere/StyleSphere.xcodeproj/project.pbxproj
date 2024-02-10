@@ -97,10 +97,10 @@
 		26543B6C2B76F68E00BC7E7A /* StyleSphere */ = {
 			isa = PBXGroup;
 			children = (
+				26543B712B76F68E00BC7E7A /* StyleSphereApp.swift */,
 				26543B9D2B77261A00BC7E7A /* Models */,
 				26543B922B7717BB00BC7E7A /* Views */,
 				26543B752B76F68E00BC7E7A /* ImmersiveView.swift */,
-				26543B712B76F68E00BC7E7A /* StyleSphereApp.swift */,
 				26543B772B76F68F00BC7E7A /* Assets.xcassets */,
 				26543B7C2B76F68F00BC7E7A /* Info.plist */,
 				26543B792B76F68F00BC7E7A /* Preview Content */,
