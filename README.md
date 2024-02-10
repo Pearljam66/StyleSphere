@@ -17,13 +17,3 @@ for everyone.
 
 ## Dependencies
 * To be added.
-
-## License
-
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
-
-**IMPORTANT:** The GNU General Public License is a copyleft license that ensures any modifications or derivatives
-of this code must also be open source and distributed under the same terms. This means that others cannot use or 
-distribute modified versions of this code in proprietary, closed-source projects.
-
-Feel free to contact the project maintainers if you have specific licensing inquiries.
