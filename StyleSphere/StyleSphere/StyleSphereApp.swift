@@ -12,6 +12,7 @@ struct StyleSphereApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .background(.purple.opacity(0.1))
         }
 
         ImmersiveSpace(id: "ImmersiveSpace") {

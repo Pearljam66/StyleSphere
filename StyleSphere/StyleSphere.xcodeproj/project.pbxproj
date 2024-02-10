@@ -15,6 +15,13 @@
 		26543B7B2B76F68F00BC7E7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26543B7A2B76F68F00BC7E7A /* Preview Assets.xcassets */; };
 		26543B862B76F68F00BC7E7A /* StyleSphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543B852B76F68F00BC7E7A /* StyleSphereTests.swift */; };
 		26543B912B770EDB00BC7E7A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26543B8F2B770EDB00BC7E7A /* Model.xcdatamodeld */; };
+		26543B942B7717D300BC7E7A /* ShoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543B932B7717D300BC7E7A /* ShoesView.swift */; };
+		26543B962B7717E600BC7E7A /* JewelryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543B952B7717E600BC7E7A /* JewelryView.swift */; };
+		26543B982B7717F200BC7E7A /* ClothingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543B972B7717F200BC7E7A /* ClothingView.swift */; };
+		26543B9A2B77219C00BC7E7A /* HandbagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543B992B77219C00BC7E7A /* HandbagsView.swift */; };
+		26543B9F2B77263A00BC7E7A /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543B9E2B77263A00BC7E7A /* SideMenu.swift */; };
+		26543BA12B77273A00BC7E7A /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543BA02B77273A00BC7E7A /* SideMenuView.swift */; };
+		26543BA32B7733C200BC7E7A /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543BA22B7733C200BC7E7A /* Clothing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,13 @@
 		26543B812B76F68F00BC7E7A /* StyleSphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StyleSphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26543B852B76F68F00BC7E7A /* StyleSphereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSphereTests.swift; sourceTree = "<group>"; };
 		26543B902B770EDB00BC7E7A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		26543B932B7717D300BC7E7A /* ShoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesView.swift; sourceTree = "<group>"; };
+		26543B952B7717E600BC7E7A /* JewelryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelryView.swift; sourceTree = "<group>"; };
+		26543B972B7717F200BC7E7A /* ClothingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingView.swift; sourceTree = "<group>"; };
+		26543B992B77219C00BC7E7A /* HandbagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbagsView.swift; sourceTree = "<group>"; };
+		26543B9E2B77263A00BC7E7A /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		26543BA02B77273A00BC7E7A /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		26543BA22B7733C200BC7E7A /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +97,10 @@
 		26543B6C2B76F68E00BC7E7A /* StyleSphere */ = {
 			isa = PBXGroup;
 			children = (
-				26543B712B76F68E00BC7E7A /* StyleSphereApp.swift */,
-				26543B732B76F68E00BC7E7A /* ContentView.swift */,
+				26543B9D2B77261A00BC7E7A /* Models */,
+				26543B922B7717BB00BC7E7A /* Views */,
 				26543B752B76F68E00BC7E7A /* ImmersiveView.swift */,
+				26543B712B76F68E00BC7E7A /* StyleSphereApp.swift */,
 				26543B772B76F68F00BC7E7A /* Assets.xcassets */,
 				26543B7C2B76F68F00BC7E7A /* Info.plist */,
 				26543B792B76F68F00BC7E7A /* Preview Content */,
@@ -115,6 +130,28 @@
 				26543B852B76F68F00BC7E7A /* StyleSphereTests.swift */,
 			);
 			path = StyleSphereTests;
+			sourceTree = "<group>";
+		};
+		26543B922B7717BB00BC7E7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26543B732B76F68E00BC7E7A /* ContentView.swift */,
+				26543B972B7717F200BC7E7A /* ClothingView.swift */,
+				26543B932B7717D300BC7E7A /* ShoesView.swift */,
+				26543B992B77219C00BC7E7A /* HandbagsView.swift */,
+				26543B952B7717E600BC7E7A /* JewelryView.swift */,
+				26543BA02B77273A00BC7E7A /* SideMenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26543B9D2B77261A00BC7E7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26543BA22B7733C200BC7E7A /* Clothing.swift */,
+				26543B9E2B77263A00BC7E7A /* SideMenu.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,10 +257,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26543B9A2B77219C00BC7E7A /* HandbagsView.swift in Sources */,
 				26543B742B76F68E00BC7E7A /* ContentView.swift in Sources */,
+				26543BA12B77273A00BC7E7A /* SideMenuView.swift in Sources */,
 				26543B722B76F68E00BC7E7A /* StyleSphereApp.swift in Sources */,
+				26543B9F2B77263A00BC7E7A /* SideMenu.swift in Sources */,
 				26543B762B76F68E00BC7E7A /* ImmersiveView.swift in Sources */,
+				26543BA32B7733C200BC7E7A /* Clothing.swift in Sources */,
 				26543B912B770EDB00BC7E7A /* Model.xcdatamodeld in Sources */,
+				26543B942B7717D300BC7E7A /* ShoesView.swift in Sources */,
+				26543B962B7717E600BC7E7A /* JewelryView.swift in Sources */,
+				26543B982B7717F200BC7E7A /* ClothingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
