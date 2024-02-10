@@ -14,6 +14,7 @@
 		26543B782B76F68F00BC7E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26543B772B76F68F00BC7E7A /* Assets.xcassets */; };
 		26543B7B2B76F68F00BC7E7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26543B7A2B76F68F00BC7E7A /* Preview Assets.xcassets */; };
 		26543B862B76F68F00BC7E7A /* StyleSphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26543B852B76F68F00BC7E7A /* StyleSphereTests.swift */; };
+		26543B912B770EDB00BC7E7A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26543B8F2B770EDB00BC7E7A /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		26543B7C2B76F68F00BC7E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26543B812B76F68F00BC7E7A /* StyleSphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StyleSphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26543B852B76F68F00BC7E7A /* StyleSphereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSphereTests.swift; sourceTree = "<group>"; };
+		26543B902B770EDB00BC7E7A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		26543B612B76F68E00BC7E7A = {
 			isa = PBXGroup;
 			children = (
+				26543B8F2B770EDB00BC7E7A /* Model.xcdatamodeld */,
 				26543B6C2B76F68E00BC7E7A /* StyleSphere */,
 				26543B6D2B76F68E00BC7E7A /* Packages */,
 				26543B842B76F68F00BC7E7A /* StyleSphereTests */,
@@ -220,6 +223,7 @@
 				26543B742B76F68E00BC7E7A /* ContentView.swift in Sources */,
 				26543B722B76F68E00BC7E7A /* StyleSphereApp.swift in Sources */,
 				26543B762B76F68E00BC7E7A /* ImmersiveView.swift in Sources */,
+				26543B912B770EDB00BC7E7A /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +497,19 @@
 			productName = RealityKitContent;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		26543B8F2B770EDB00BC7E7A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26543B902B770EDB00BC7E7A /* Model.xcdatamodel */,
+			);
+			currentVersion = 26543B902B770EDB00BC7E7A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 26543B622B76F68E00BC7E7A /* Project object */;
 }
