@@ -46,7 +46,7 @@ struct ClothingView: View {
                 VStack (alignment: .leading) {
                     Text("Clothing")
                         .font(.largeTitle)
-                    Text("100 pieces")
+                    Text(String(clothing.count) + " items")
                         .foregroundStyle(.tertiary)
                 }
                 .padding(.all, 8)
