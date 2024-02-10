@@ -18,15 +18,22 @@ struct ContentView: View {
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
 
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+        NavigationSplitView {
+            VStack {
+                Text("StyleSphere")
+                    .font(.extraLargeTitle)
+                    .bold()
 
-            Text("Hello, world!")
+                Model3D(named: "Scene", bundle: realityKitContentBundle)
+                    .padding(.bottom, 50)
 
-            Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
-                .toggleStyle(.button)
-                .padding(.top, 50)
+                Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
+                    .toggleStyle(.button)
+                    .padding(.top, 50)
+            }
+
+        } detail: {
+
         }
         .padding()
         .onChange(of: showImmersiveSpace) { _, newValue in

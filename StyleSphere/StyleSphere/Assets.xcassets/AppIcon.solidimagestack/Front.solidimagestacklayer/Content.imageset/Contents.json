@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "StyleSphere.png",
       "idiom" : "vision",
       "scale" : "2x"
     }
